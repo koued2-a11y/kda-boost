@@ -1,0 +1,62 @@
+﻿
+                                                                            
+                   KDA-BOOST - INSTRUCTIONS SIMPLES                    
+                                                                            
+
+
+
+
+                             ACTION À FAIRE 
+
+
+
+                  Double-cliquez sur ce fichier :
+
+
+            
+                                                        
+                    INSTALLER_PUIS_LANCER.bat          
+                                                        
+            
+
+
+
+
+
+ CE QUI VA SE PASSER :
+
+     [2-3 minutes] Installation automatique
+   
+    Installation des dépendances
+    Configuration de la base de données
+    Création des tables
+    Lancement de l'application
+
+
+
+
+
+ APRÈS L'INSTALLATION :
+
+   Votre navigateur s'ouvrira sur :
+
+    http://localhost:3000
+
+
+
+
+
+ DOCUMENTATION :
+
+   LIRE_MAINTENANT.txt            Explications détaillées
+   INSTRUCTIONS_FINALES.md        Guide complet
+   DEMARRAGE.txt                  Résumé de configuration
+
+
+
+
+
+ C'EST TOUT ! UN SEUL CLIC ! 
+
+
+

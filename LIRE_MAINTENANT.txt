@@ -1,0 +1,107 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║              📌 IMPORTANT - LISEZ CECI EN PREMIER ! 📌                    ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+🔴 PROBLÈME RENCONTRÉ
+
+Vous avez lancé LANCER_APP.bat mais il y avait une erreur car les 
+dépendances npm n'étaient pas encore installées.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ SOLUTION - 2 OPTIONS
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 OPTION 1 : SCRIPT AUTOMATIQUE (RECOMMANDÉ)
+
+   Double-cliquez sur : INSTALLER_PUIS_LANCER.bat
+
+   Ce nouveau script va :
+   ✅ Installer toutes les dépendances
+   ✅ Configurer Prisma
+   ✅ Créer les tables Supabase
+   ✅ Lancer l'application
+
+   Durée : ~2-3 minutes
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🛠️ OPTION 2 : COMMANDES MANUELLES
+
+   Ouvrez PowerShell dans ce dossier et tapez :
+
+   1. npm install
+   2. npx prisma generate
+   3. npx prisma db push
+   4. npm run dev
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📂 FICHIERS DE LANCEMENT
+
+┌─────────────────────────────────────────────────────────────┐
+│ INSTALLER_PUIS_LANCER.bat  ← UTILISEZ CELUI-CI (Premier)   │
+│ LANCER_APP.bat             ← Pour les fois suivantes       │
+└─────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⏱️ QUE VA-T-IL SE PASSER ?
+
+1. [1-2 min] Installation des dépendances npm
+   → Téléchargement de Next.js, React, Prisma, etc.
+
+2. [10 sec] Génération du client Prisma
+   → Création du client de base de données
+
+3. [5 sec] Création des tables Supabase
+   → Création de User, Follow, Transaction, BoostOrder
+
+4. [Immédiat] Lancement de l'application
+   → Serveur Next.js sur http://localhost:3000
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 ACTION IMMÉDIATE
+
+👉 Double-cliquez sur INSTALLER_PUIS_LANCER.bat MAINTENANT !
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ EN CAS DE PROBLÈME
+
+Si vous voyez une erreur :
+
+1. Vérifiez que npm est installé :
+   → Tapez "npm --version" dans PowerShell
+
+2. Vérifiez votre connexion internet
+   → Nécessaire pour télécharger les dépendances
+
+3. Vérifiez le fichier .env
+   → Le mot de passe Supabase doit être correct
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📱 APRÈS LE LANCEMENT
+
+Votre navigateur s'ouvrira automatiquement sur :
+
+   http://localhost:3000
+
+Vous verrez :
+   ✅ Page d'accueil moderne
+   ✅ Bouton "Commencer"
+   ✅ Design TikTok (Rose + Cyan)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎊 C'EST TOUT !
+
+Double-cliquez sur INSTALLER_PUIS_LANCER.bat et attendez ~2-3 minutes !
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
